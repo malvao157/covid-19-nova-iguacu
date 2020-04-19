@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19(Nova Iguaçu)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1>COVID-19 em Nova Iguaçu</h1>
+        <p>Esse site tem apenas a função de informar os caos de COVID-19 no município de Nova Iguaçu</p>
+    </header>
+
+
+    <div class="container">
+        <div class="col-18 chart">
+            <canvas id="chart" width="800" height="400">
+                <script src="chart-line.js"></script>
+            </canvas>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="col-18 chart"><canvas id="chart-bar" width="800" height="400">
+                <script src="chart-bar.js"></script>
+            </canvas>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-12">Este site foi desenvolvido por Victor Malvão</h1>
+            <a href="https://twitter.com/victormalvao" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Twitter</a>
+            <a href="https://www.facebook.com/victormalvao15" target="_blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Facebook</a>
+
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script>, Victor Malvão</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
